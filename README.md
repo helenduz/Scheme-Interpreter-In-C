@@ -9,6 +9,7 @@ This is a command-line interpreter written in C for the functional programming l
 
 ## Scripts Logic
 The file that is actually run, `interpreter.c`, uses functions, structs, and variables from `value.h`, `linkedlist.h`, `talloc.h`, `tokenizer.h`, and `parser.h`. `value.h` is an implementation of a generic linked list item.
+
 `linkedlist.c` is an implementation of a linked list in C.
 
 `talloc.c` is a memory manager that tracks all heap memory allocations and can free all memory in one call.
