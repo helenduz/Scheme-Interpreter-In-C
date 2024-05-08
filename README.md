@@ -24,5 +24,3 @@ The file that is actually run, `interpreter.c`, uses functions, structs, and var
 This interpreter does not cover all possible Scheme syntax: 
 - _Data types that are not yet supported:_ vectors, bytevector, hashtables
 - _Primitive functions and special forms that are not yet suppported:_ `load`, `cond`, `list`, `append`, `equal?`, `display`, `when`, `unless`, `'`(must use `quote` instead of the symbol abbreviation)
-
-- test
